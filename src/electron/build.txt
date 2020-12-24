@@ -1,0 +1,2 @@
+electron-packager . HelloWorld --platform=win32 --arch=x64 --icon=src/electron/favicon.ico --out=./out --asar --app-version=0.0.1 --overwrite --ignore=
+node_modules --electron-version 11.0.3

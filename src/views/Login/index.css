@@ -1,0 +1,25 @@
+.login .margin{
+  width: 1140px;
+  margin: 0 auto;
+}
+.login .margin .top{
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0 16px;
+  border-bottom: 1px solid #EEEBEB;
+}
+.login .margin .top img{
+  width: 28px;
+  height: 28px;
+}
+
+.login .margin .top span{
+  font-size: 25px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}

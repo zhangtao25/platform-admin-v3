@@ -1,0 +1,16 @@
+.personal-setting .row{
+  margin-bottom: 30px;
+}
+.personal-setting .row .title .text{
+  font-size: 16px;
+}
+
+.personal-setting .row .title .tag{
+  font-size: 12px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.personal-setting .row .content button{
+  margin-left: 10px;
+}

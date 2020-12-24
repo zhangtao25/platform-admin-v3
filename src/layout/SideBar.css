@@ -1,0 +1,98 @@
+.side-bar{
+  width: 260px;
+  background-color: #F9F8F8;
+}
+.side-bar .personal-center{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+
+.side-bar .personal-center:hover{
+  background-color: #EEECEC;
+}
+
+
+.side-bar .personal-center .dropdown-wrap{
+  cursor: pointer;
+  width: 100%;
+}
+
+/*EEECEC*/
+
+.side-bar .personal-center .avatar{
+  width: 24px;
+  margin-left: 12px;
+}
+
+.side-bar .personal-center .nickname{
+  /*color: var(--wolai-workspace-name-color);*/
+  margin-left: 12px;
+  margin-right: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
+
+.side-bar ul.shortcut-button{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+
+.side-bar ul.shortcut-button li{
+  cursor: pointer;
+  padding: 4px 10px;
+  font-size: 20px;
+  /*color: var(--wolai-title-color);*/
+  line-height: 14px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.side-bar ul.shortcut-button li:hover{
+  /*cursor: pointer;*/
+  /*padding: 4px 10px;*/
+  /*font-size: 14px;*/
+  /*!*color: var(--wolai-title-color);*!*/
+  /*line-height: 14px;*/
+  /*text-align: center;*/
+  /*border-radius: 4px;*/
+  background-color: #EEECEC;
+}
+
+
+
+
+.dropdown-menu{
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu .text{
+  flex: 1;
+}
+.dropdown-menu .text p{
+  margin-bottom: 0;
+}
+.dropdown-menu .text p:nth-child(1){
+  font-size: 14px;
+}
+.dropdown-menu .text p:nth-child(2){
+  font-size: 12px;
+  color: gray;
+}
+.dropdown-menu img{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}

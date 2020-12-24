@@ -1,0 +1,20 @@
+/*.main-container*/
+.main-container .margin{
+  display: flex;
+}
+
+.main-container .margin .right-container{
+  flex: 1;
+  padding-right: 56px;
+  padding-left: 20px;
+}
+
+
+
+
+.introduction{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 30px;
+}

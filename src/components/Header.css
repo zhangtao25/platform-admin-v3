@@ -1,0 +1,94 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.04);
+}
+.header .left,.header .right{
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.header .left .nav{
+  font-size: 16px;
+  margin-left: 20px;
+}
+.header .left .nav li{
+  padding: 0 30px;
+}
+.header .left .nav li:hover{
+  cursor: pointer;
+  color: #00a8f3;
+}
+
+.header .right .mini{
+  display: flex;
+  margin-right: 30px;
+  position: relative;
+}
+
+.header .right .mini{
+  cursor: pointer;
+}
+.header .right .mini .Mini-Program-QR-code{
+  position: absolute;
+  top: 60px;
+  left: -20px;
+  position: absolute;
+  background: #fff;
+  min-width: 150px;
+  border: 1px solid #ebeef5;
+  padding: 12px;
+  z-index: 2000;
+  color: #606266;
+  line-height: 1.4;
+  text-align: justify;
+  font-size: 14px;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  word-break: break-all;
+  display: none;
+  /*cursor: pointer;*/
+}
+
+.header .right .mini:hover .Mini-Program-QR-code{
+  display: block;
+}
+
+.header .right .mini:hover .Mini-Program-QR-code .tips{
+  font-size: 12px; text-align: center; color: rgb(144, 147, 153);
+}
+
+
+
+
+.header .right button{
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  -webkit-transition: .1s;
+  transition: .1s;
+  font-weight: 500;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #409eff;
+  border-color: #409eff;
+}
+
+.header .right button:hover{
+  background: #66b1ff;
+  border-color: #66b1ff;
+}
